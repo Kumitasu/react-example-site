@@ -1,10 +1,16 @@
 import React from 'react';
 
+import {images} from '../../constants';
 import './Header.css';
 
 const Header = () => (
-  <div>
-    Header
+  <div className='app__header app__wrapper section__padding' id='home'>
+    <div className='app__wrapper-info'>
+
+    </div>
+    <div className='app__wrapper_image'>
+      
+    </div>
   </div>
 );
 
