@@ -17,7 +17,15 @@ const Chef = () => (
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
           <img src={images.quote} alt='quote' />
+          <p className='p__opensans'>lorem lorem ipsum dolor</p>
         </div>
+        <p className='p__opensans'>lorem ipsum dolor</p>
+      </div>
+
+      <div className='app__chef-sign'>
+        <p>Kevin</p>
+        <p className='p__opensans'>Chef n Founder</p>
+        <img src={images.sign} alt='sign' />
       </div>
     </div>
   </div>
