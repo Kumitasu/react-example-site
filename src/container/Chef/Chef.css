@@ -30,4 +30,10 @@
     line-height:41px;
     letter-spacing: 0.04em;
     text-transform:capitalize;
+    color: var(--color-golden);
+}
+
+.app__chef-sign img {
+    width:250px;
+    margin-top: 3rem;
 }
