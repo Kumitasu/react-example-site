@@ -10,6 +10,12 @@ const vidRef = React.useRef();
 
 const handleVideo = () => {
   setPlayVideo((prevPlayVideo) => !prevPlayVideo)
+
+  if (playVideo) {
+    vidRef.current.pause();
+  } else {
+    vidRef.current.play();
+  }
 }
 
   return (
