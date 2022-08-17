@@ -11,8 +11,10 @@ const Gallery = () => {
   <div className='app_gallery flex__center'>
     <div className='app__gallery-content'>
       <SubHeading title="Instagram" />
+      <h1 className='headtext__cormorant'>Photo Gallery</h1>
+      <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem'}}>lorem ipsum dolor sit amet</p>
     </div>
-    Gallery
+    
   </div>
   );
 }
