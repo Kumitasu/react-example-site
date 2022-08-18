@@ -84,3 +84,8 @@
     position: absolute;
     bottom:5%;
 }
+
+.gallery__arrow-icon{
+    color: var(--color-golden);
+    font-size: 2rem;
+}
