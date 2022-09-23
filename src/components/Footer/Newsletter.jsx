@@ -13,7 +13,7 @@ const Newsletter = () => (
 
     <div className='app__newsletter-input flex__center'>
       <input type='email' placeholder='Enter your email address' />
-      <button className='custom_botton'>Submit</button>
+      <button className='custom__button'>Submit</button>
     </div>
   </div>
 );
