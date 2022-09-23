@@ -11,7 +11,7 @@ const Footer = () => (
 
     <div className='app__footer-links'>
       <div className='app__footer-links_contact'>
-        Hello
+        
       </div>
       <div className='app__footer-links_logo'>
 
