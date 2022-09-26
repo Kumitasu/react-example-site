@@ -21,9 +21,18 @@ const Footer = () => (
         <img src={images.gericht} alt='footer_logo' />
         <p className='p__opensans'>Lorem ipsum</p>
         <img src={images.spoon} alt='spoon' className='spoon__img' style={{marginTop: 15}}  />
+        <div className='app__footer-links_icons'>
+          <FiFacebook />
+          <FiTwitter />
+          <FiInstagram />
+        </div>
       </div>
       <div className='app__footer-links_work'>
-
+        <h1 className='app__footer-headtext'>Working Hours</h1>
+        <p className='p__opensans'>Mon-Friday:</p>
+        <p className='p__opensans'>8.00 - 12.00</p>
+        <p className='p__opensans'>Sat-Sun:</p>
+        <p className='p__opensans'>8.00 - 15.00</p>
       </div>
     </div>
 
