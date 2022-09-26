@@ -11,3 +11,26 @@
     background: var(--color-black);
     padding-top: 0;
 }
+
+.app__footer-links{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+
+.app__fotter-links_contact,
+.app__fotter-links_logo,
+.app__fotter-links_work {
+    flex:1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.app__footer-links_logo img:first-child {
+    width:210px;
+    margin-bottom: 0.75rem;
+}
